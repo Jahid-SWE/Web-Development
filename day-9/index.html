@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+
+    <div id="wrapper">
+
+    </div>
+        <script>
+
+
+
+
+
+
+
+            // var i= 10;
+            // do{
+            //     document.write(i+'<br/>');
+            //     i++;
+            // } while (i<20)
+
+            // var i= 10;
+            // while(i<20){
+            //         document.write(i+'<br/>');
+            //         i++;
+            // }
+
+
+
+
+          // for (var i=17; i>=5; i--){
+          //     document.write(i+'<br/>');
+          // }
+
+
+            //              Array ki
+
+            // var name='jahid ';
+            // var  email='jahidhassan@gmail.com';
+            // var phone='01767099465';
+
+            // var name=[];
+            // var data=[10,20,30,52.5,'sozib','sozib@gmail.com', true];
+            // //document.write(data[3]);
+            // for (var  key in data){
+            //     document.write('index :'+key+'value :'+ data[key]+'<br>');
+            // }
+
+            // var student= ['sozib','sozib@gmail.com','017670999465']
+            //
+            // for (key in student){
+            //     document.write(student[key]+ '<br>');
+            // }
+
+  /*          var student=[{name: 'sozib', email: 'sojib@gmail.com', mobile: '0176705544'},
+                        {name: 'jahid', email: 'jahid@gmail.com', mobile: '0176705544'},
+                        {name: 'fahim', email: 'fahim@gmail.com', mobile: '0176705544'},
+                        {name: 'fahim', email: 'fahim@gmail.com', mobile: '0176705544'},
+            ];
+
+            for(var i=0; i<student.length; i++){
+                if (i<=1)
+            }
+                document.write(student[i].name+' '+student[i].email+' '+student[i].mobile+'<br>');
+            }
+*/
+
+
+
+
+            /*========Function=========*/
+
+           /* function  demo(x, y){
+                var z= x+y;
+                document.write(z);
+
+            }
+            demo(10,12);
+            document.write('<br>=========<br>');
+            demo(15,24);
+            document.write('<br>=========<br>');
+            demo(15,24);
+*/
+
+       /*     function createDiv(height,width, color){
+                var div=document.createElement('div');
+
+                div.style.height=height+'px';
+                div.style.width= Width+'px';
+                div.style.backgroundColor=color;
+                div.style.float='left';
+                div.style.margin='10px';
+
+
+                var div1=document.getElementById('wrapper');
+                div1.append(div);
+            }
+            createDiv(100,200,'red');
+            createDiv( 300,400,'green');
+            createDiv(50,100,'blue');*/
+
+            var student='';//
+            var student=[];
+            var student={
+
+                name:'jahid',
+                city:'Dhaka',
+                walk: function (){
+                    document.write('Hello Mr.'+ this.name);
+
+                }, another:function (){
+                    document.write('Rohim address is '+this.city);
+                }
+
+            };
+            document.write(student.name)
+          student.walk();
+        </script>
+    </body>
+</html>

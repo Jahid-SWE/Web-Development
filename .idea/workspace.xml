@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2c776f1-1b62-40d1-873b-4e42730a0dc9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oZAKWneFwFTjm68JKKsoV3QCNh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day-13-pactice/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web-app-development\day-13-pactice\js" />
+      <recent name="E:\web-app-development\practice\img" />
+      <recent name="E:\web-app-development\day-10\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2c776f1-1b62-40d1-873b-4e42730a0dc9" name="Default Changelist" comment="" />
+      <created>1613483676028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613483676028</updated>
+      <workItem from="1613483677139" duration="8273000" />
+      <workItem from="1613660833896" duration="7514000" />
+      <workItem from="1613827625441" duration="265000" />
+      <workItem from="1614006686052" duration="600000" />
+      <workItem from="1614071806665" duration="313000" />
+      <workItem from="1614096980237" duration="5603000" />
+      <workItem from="1614132667624" duration="19000" />
+      <workItem from="1614134657302" duration="15000" />
+      <workItem from="1614161244765" duration="600000" />
+      <workItem from="1614179390717" duration="3000" />
+      <workItem from="1614265840582" duration="7706000" />
+      <workItem from="1614300342956" duration="7425000" />
+      <workItem from="1614515276243" duration="11104000" />
+      <workItem from="1614590353627" duration="1417000" />
+      <workItem from="1614664691205" duration="4879000" />
+      <workItem from="1614690315828" duration="11261000" />
+      <workItem from="1614744175546" duration="10620000" />
+      <workItem from="1614838912616" duration="8944000" />
+      <workItem from="1614861335125" duration="8811000" />
+      <workItem from="1614914565821" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

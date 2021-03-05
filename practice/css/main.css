@@ -1,0 +1,36 @@
+.slider-bg{
+    height: 657px;
+    width: 100%;
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+
+.slider-bg-wrapper{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+
+}
+.slider-content{
+    margin-top:140px!important;
+}
+.slider-content h3{
+    text-transform: capitalize;
+}
+.slider-content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.slider-content a{
+    border: aqua 1px solid;
+}
+.slider-content h4{
+    text-transform: capitalize;
+}
+.image-size{
+    height: 50%;
+    width: 50%;
+    border-radius: 100%;
+}

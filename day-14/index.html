@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+    <div id="div">
+        <table>
+            <tr>
+                <th>First Name</th>
+                <td>
+                    <input type="text" v-model="firstName" ></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" v-model="lastName"></td>
+            </tr>
+            <tr>
+                <th>Full  Name</th>
+                <td><input type="text" v-model="fullName"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="button" @click="makeFullName" value="submit"></td>
+            </tr>
+        </table>
+
+
+
+        <h1>{{name}}</h1>
+        <h2>{{city}}</h2>
+        <button type="button" @click="one">Click Me</button>
+       <!-- <h3>{{Student[0]}}</h3>
+        <h3>{{Student[1]}}</h3>
+        <h3>{{Student[2]}}</h3>-->
+        <h3 v-for="item in Student" >{{item}}</h3>
+
+        <h3>product Name: {{product.name}}, product Price : {{product.price}}, Brand : {{product.brand}}</h3>
+
+        <ul>
+            <li v-for="product in products">Product Name : {{product.name}},Product price : {{product.price}},Product Brand : {{product.brand}},</li>
+        </ul>
+
+        <h1 v-if="data">this is heading</h1>
+        <h1 v-else>this is another heading</h1>
+
+        <h1>{{name}}</h1>
+        <input type="text" v-model="name">
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#div',
+            data: {
+
+
+                name:'jahid hassan',
+                city: 'dhaka',
+                Student: ['rohim', 'korim', 'ruhul'],
+                product: {name: 'Mobile', price:123, brand:'sony'},
+                products:[
+                    {name: 'Mobile one', price:123, brand:'sony'},
+                    {name: 'Mobile two', price:344, brand:'walton'},
+                    {name: 'Samsung Glaxy XZ' , price:66, brand:'Samsung'},
+                ],
+                data: false,
+                firstName: '',
+                lastName: '',
+                fullName: ''
+
+            },
+            methods:{
+                one: function (){
+                    alert('hello Vue Js');
+                },
+
+                makeFullName: function (){
+                     this.fullName =this.firstName+' '+this.lastName;
+                     alert(this.makeFullName);
+                }
+
+            }
+        })
+    </script>
+    </body>
+</html>
