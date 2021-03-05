@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+    <div id="calculator">
+        <table border="1" >
+            <tr>
+                <th>First Number</th>
+                <td><input type="number" v-model="firstNumber"  ></td>
+            </tr>   <tr>
+                <th>Last Number</th>
+                <td><input type="number" v-model="lastNumber" ></td>
+            </tr>   <tr>
+                <th> Result</th>
+                <td><input type="number" v-model="fullNumber" :disabled="wrong"  ></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <input type="button"   @click="sum" name="" value="+" >
+                    <input type="button"  @click="subtraction" name="" value="-" >
+                    <input type="button"  @click="multiplication" name="" value="*" >
+                    <input type="button"  @click="division" name="" value="/" >
+                    <input type="button"  @click="modulus" name="" value="%" >
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el:'#calculator',
+            users:{},
+            data:{
+                firstNumber:'',
+                lastNumber:'',
+                fullNumber:'',
+                wrong:true
+
+            },
+            methods:{
+
+
+                sum:function()
+                {
+                    this.fullNumber = (parseFloat(this.firstNumber) + parseFloat(this.lastNumber)).toFixed(4);
+                },
+
+                subtraction:function()
+                {
+                    this.fullNumber = (parseFloat(this.firstNumber) - parseFloat(this.lastNumber)).toFixed(4);
+                },
+
+                multiplication:function()
+                {
+                     this.fullNumber = (parseFloat(this.firstNumber) * parseFloat(this.lastNumber)).toFixed(4);
+                },
+
+                division:function()
+                {
+                    this.fullNumber = (parseFloat(this.firstNumber) / parseFloat(this.lastNumber)).toFixed(5);
+                },
+
+                modulus:function()
+                {
+                    return  this.fullNumber = (parseFloat(this.firstNumber) % parseFloat(this.lastNumber)).toFixed(5);
+                },
+
+            }
+        })
+    </script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+   <div id="div">
+       <table>
+           <tr>
+               <th>First Name</th>
+               <td> <input type="text" name="" id="fName"></td>
+           </tr>  <tr>
+               <th>Last Name</th>
+               <td> <input type="text" name="" id="lName"></td>
+           </tr>  <tr>
+               <th>Full Name</th>
+               <td> <input type="text" name="" id="fuName"></td>
+           </tr>  <tr>
+               <th></th>
+               <td> <input type="button" name="" id="btn" value="Submit" ></td>
+           </tr>
+       </table>
+
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el:'#div',
+            data: {
+
+                fName:'',
+                lName:'',
+                fuName:''
+            },
+            methods: function (){
+
+            }
+        })
+    </script>
+    </body>
+</html>

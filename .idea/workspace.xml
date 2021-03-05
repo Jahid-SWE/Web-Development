@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2c776f1-1b62-40d1-873b-4e42730a0dc9" name="Default Changelist" comment="" />
+    <list default="true" id="a2c776f1-1b62-40d1-873b-4e42730a0dc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/calculator-vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-14-practice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oZAKWneFwFTjm68JKKsoV3QCNh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/day-13-pactice/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -70,6 +79,8 @@
       <workItem from="1614838912616" duration="8944000" />
       <workItem from="1614861335125" duration="8811000" />
       <workItem from="1614914565821" duration="23000" />
+      <workItem from="1614915651844" duration="3382000" />
+      <workItem from="1614939698043" duration="13253000" />
     </task>
     <servers />
   </component>
