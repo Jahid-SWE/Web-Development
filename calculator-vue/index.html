@@ -15,7 +15,7 @@
                 <td><input type="number" v-model="lastNumber" ></td>
             </tr>   <tr>
                 <th> Result</th>
-                <td><input type="number" v-model="fullNumber" :disabled="wrong"  ></td>
+                <td><input type="number" v-model="result" :disabled="wrong"  ></td>
             </tr>
             <tr>
                 <th></th>
@@ -38,36 +38,33 @@
             data:{
                 firstNumber:'',
                 lastNumber:'',
-                fullNumber:'',
+                result:'',
                 wrong:true
-
             },
             methods:{
-
-
                 sum:function()
                 {
-                    this.fullNumber = (parseFloat(this.firstNumber) + parseFloat(this.lastNumber)).toFixed(4);
+                    this.result = parseFloat(this.firstNumber) + parseFloat(this.lastNumber);
                 },
 
                 subtraction:function()
                 {
-                    this.fullNumber = (parseFloat(this.firstNumber) - parseFloat(this.lastNumber)).toFixed(4);
+                    this.result = (parseFloat(this.firstNumber) - parseFloat(this.lastNumber));
                 },
 
                 multiplication:function()
                 {
-                     this.fullNumber = (parseFloat(this.firstNumber) * parseFloat(this.lastNumber)).toFixed(4);
+                     this.result = (parseFloat(this.firstNumber) * parseFloat(this.lastNumber));
                 },
 
                 division:function()
                 {
-                    this.fullNumber = (parseFloat(this.firstNumber) / parseFloat(this.lastNumber)).toFixed(5);
+                    this.result = (parseFloat(this.firstNumber) / parseFloat(this.lastNumber));
                 },
 
                 modulus:function()
                 {
-                    return  this.fullNumber = (parseFloat(this.firstNumber) % parseFloat(this.lastNumber)).toFixed(5);
+                     this.result = (parseFloat(this.firstNumber) % parseFloat(this.lastNumber));
                 },
 
             }

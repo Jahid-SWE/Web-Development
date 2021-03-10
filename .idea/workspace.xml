@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c776f1-1b62-40d1-873b-4e42730a0dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/calculator-vue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-14-practice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-15/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator-vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-14-practice/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day-14/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day-13-pactice/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -81,6 +83,19 @@
       <workItem from="1614914565821" duration="23000" />
       <workItem from="1614915651844" duration="3382000" />
       <workItem from="1614939698043" duration="13253000" />
+      <workItem from="1614999181176" duration="3520000" />
+      <workItem from="1615028470386" duration="11981000" />
+      <workItem from="1615091506469" duration="2539000" />
+      <workItem from="1615113519965" duration="4000" />
+      <workItem from="1615119179166" duration="5617000" />
+      <workItem from="1615178911466" duration="1892000" />
+      <workItem from="1615192393814" duration="1911000" />
+      <workItem from="1615197481129" duration="11000" />
+      <workItem from="1615212509650" duration="1584000" />
+      <workItem from="1615259815546" duration="36000" />
+      <workItem from="1615303022246" duration="1474000" />
+      <workItem from="1615344031470" duration="2185000" />
+      <workItem from="1615371872978" duration="532000" />
     </task>
     <servers />
   </component>

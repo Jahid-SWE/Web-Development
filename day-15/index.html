@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <div id="app">
+            <h1>{{name}}</h1>
+            <button type="button" @click="one"> click me</button>
+            <input type="text" v-model="name" >
+
+            <table border="1" >
+                <tr>
+                    <th>First Number</th>
+                    <td><input type="number" v-model="firstNumber"  ></td>
+                </tr>   <tr>
+                <th>Last Number</th>
+                <td><input type="number" v-model="lastNumber" ></td>
+            </tr>   <tr>
+                <th> Result</th>
+                <td><input type="number" v-model="result" :disabled="wrong"  ></td>
+            </tr>
+                <tr>
+                    <th></th>
+                    <td>
+                        <input type="button"   @click="sum" name="" value="+" >
+                        <input type="button"  @click="subtraction" name="" value="-" >
+                        <input type="button"  @click="multiplication" name="" value="*" >
+                        <input type="button"  @click="division" name="" value="/" >
+                        <input type="button"  @click="modulus" name="" value="%" >
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
