@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c776f1-1b62-40d1-873b-4e42730a0dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day-15/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_17/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/syntax/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator-vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator-vue/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-14-practice/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day-14/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_1/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_1/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_1/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_1/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,14 +22,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProblemsViewState">
+    <option name="proportion" value="0.45330295" />
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="1oZAKWneFwFTjm68JKKsoV3QCNh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,18 +47,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowDuplicates.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web-app-development\day_17\src\views" />
+      <recent name="E:\web-app-development\new_project\src" />
       <recent name="E:\web-app-development\day-13-pactice\js" />
       <recent name="E:\web-app-development\practice\img" />
       <recent name="E:\web-app-development\day-10\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web-app-development\day_17\src" />
+      <recent name="E:\web-app-development\syntax" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,6 +111,29 @@
       <workItem from="1615303022246" duration="1474000" />
       <workItem from="1615344031470" duration="2185000" />
       <workItem from="1615371872978" duration="532000" />
+      <workItem from="1615380200596" duration="1047000" />
+      <workItem from="1615382668081" duration="4155000" />
+      <workItem from="1615436833211" duration="2614000" />
+      <workItem from="1615475588433" duration="3988000" />
+      <workItem from="1615523052529" duration="5324000" />
+      <workItem from="1615548933505" duration="10829000" />
+      <workItem from="1615567223898" duration="10000" />
+      <workItem from="1615600522465" duration="910000" />
+      <workItem from="1615601456135" duration="7169000" />
+      <workItem from="1615627101244" duration="1047000" />
+      <workItem from="1615628581899" duration="73000" />
+      <workItem from="1615628676820" duration="2845000" />
+      <workItem from="1615640268438" duration="3896000" />
+      <workItem from="1615645101237" duration="5310000" />
+      <workItem from="1615700747857" duration="1881000" />
+      <workItem from="1615702672659" duration="175000" />
+      <workItem from="1615731173427" duration="11422000" />
+      <workItem from="1615798349951" duration="253000" />
+      <workItem from="1616322713062" duration="3651000" />
+      <workItem from="1616339064320" duration="2270000" />
+      <workItem from="1616393848325" duration="1951000" />
+      <workItem from="1616397060228" duration="12334000" />
+      <workItem from="1616410329475" duration="177000" />
     </task>
     <servers />
   </component>
